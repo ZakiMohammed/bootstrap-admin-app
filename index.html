@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+
+</head>
+
+<body class="bg-light">
+
+    <!-- header -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="imgs/customers/logoipsum-logo-26.svg" alt="" srcset=""></a>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#"><i class="bi bi-house-fill"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="bi bi-dice-6"></i> Services</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Welcome admin
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="#"><i class="bi bi-person-fill"></i> Profile</a>
+                            <a class="dropdown-item" href="#"><i class="bi bi-gear"></i> Setting</a>
+                            <hr class="dropdown-divider">
+                            <a class="dropdown-item" href="#"><i class="bi bi-box-arrow-right"></i> Logout</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- main-content -->
+    <div class="container my-5">
+        <div class="row mb-4">
+            <div class="col-sm-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h6 class="text-muted text-uppercase mb-2">Weekly Sales</h6>
+                        <h1 class="float-end text-primary"><i class="bi bi-clock"></i></h1>
+                        <h4 class="card-title display-6"><b>2:37</b></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h6 class="text-muted text-uppercase mb-2">Weather</h6>
+                        <h1 class="float-end text-success"><i class="bi bi-bell-fill"></i></h1>
+                        <h4 class="card-title display-6"><b>$47K</b></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h6 class="text-muted text-uppercase mb-2">Total Order</h6>
+                        <h1 class="float-end text-danger"><i class="bi bi-palette2"></i></h1>
+                        <h4 class="card-title display-6"><b>35.5%</b></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h6 class="text-muted text-uppercase mb-2">Market Share</h6>
+                        <h1 class="float-end text-warning"><i class="bi bi-hypnotize"></i></h1>
+                        <h4 class="card-title display-6"><b>$24,500</b></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-4">
+            <div class="col-sm-8">
+                <div class="card">
+                    <div class="card-header">Total Sales</div>
+                    <div class="card-body">
+                        <div class="row g-4 mb-4">
+                            <div class="col-md-6">
+                                <h6>Falcon<small class="float-end">80%</small></h6>
+                                <div class="progress" style="height: 10px;">
+                                    <div class="progress-bar progress-bar-striped bg-primary" role="progressbar"
+                                        style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <h6>Reign<small class="float-end">40%</small></h6>
+                                <div class="progress" style="height: 10px;">
+                                    <div class="progress-bar progress-bar-striped bg-success" role="progressbar"
+                                        style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-4 mb-4">
+                            <div class="col-md-6">
+                                <h6>Personal Site<small class="float-end">40%</small></h6>
+                                <div class="progress" style="height: 10px;">
+                                    <div class="progress-bar progress-bar-striped bg-info" role="progressbar"
+                                        style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <h6>Release v1.2-Beta<small class="float-end">30%</small></h6>
+                                <div class="progress" style="height: 10px;">
+                                    <div class="progress-bar progress-bar-striped bg-dark" role="progressbar"
+                                        style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-4 mb-4">
+                            <div class="col-md-6">
+                                <h6>Boots4<small class="float-end">50%</small></h6>
+                                <div class="progress" style="height: 10px;">
+                                    <div class="progress-bar progress-bar-striped bg-danger" role="progressbar"
+                                        style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <h6>Raven<small class="float-end">35%</small></h6>
+                                <div class="progress" style="height: 10px;">
+                                    <div class="progress-bar progress-bar-striped bg-primary" role="progressbar"
+                                        style="width: 35%;" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-4 mb-4">
+                            <div class="col-md-6">
+                                <h6>Slick<small class="float-end">20%</small></h6>
+                                <div class="progress" style="height: 10px;">
+                                    <div class="progress-bar progress-bar-striped bg-dark" role="progressbar"
+                                        style="width: 20%;" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <h6>Lorem<small class="float-end">60%</small></h6>
+                                <div class="progress" style="height: 10px;">
+                                    <div class="progress-bar progress-bar-striped bg-warning" role="progressbar"
+                                        style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-header">Running Projects</div>
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">List group item heading</h5>
+                                <small>3 days ago</small>
+                            </div>
+                            <p class="mb-1">Some placeholder content in a paragraph.</p>
+                            <small>And some small print.</small>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">List group item heading</h5>
+                                <small class="text-muted">3 days ago</small>
+                            </div>
+                            <p class="mb-1">Some placeholder content in a paragraph.</p>
+                            <small class="text-muted">And some muted small print.</small>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">List group item heading</h5>
+                                <small class="text-muted">3 days ago</small>
+                            </div>
+                            <p class="mb-1">Some placeholder content in a paragraph.</p>
+                            <small class="text-muted">And some muted small print.</small>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-4">
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-header">Recent Activity</div>
+                    <div class="card-body">
+                        <div class="row mb-2 border-bottom pb-2">
+                            <div class="col-3">
+                                <img class="img-fluid rounded-circle border-5 border-light border"
+                                    src="https://randomuser.me/api/portraits/women/65.jpg" alt="" srcset="">
+                            </div>
+                            <div class="col-9">
+                                <h6>Dianna Smiley</h6>
+                                <small class="d-block m-0">Uploaded the files "Launchday Logo" and "New Design".</small>
+                                <small class="text-muted">2m ago</small>
+                            </div>
+                        </div>
+                        <div class="row mb-2 border-bottom pb-2">
+                            <div class="col-3">
+                                <img class="img-fluid rounded-circle border-5 border-light border"
+                                    src="https://randomuser.me/api/portraits/men/65.jpg" alt="" srcset="">
+                            </div>
+                            <div class="col-9">
+                                <h6>Ab Hadley</h6>
+                                <small class="d-block m-0">Uploaded the files "Launchday Logo" and "New Design".</small>
+                                <small class="text-muted">2m ago</small>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <img class="img-fluid rounded-circle border-5 border-light border"
+                                    src="https://randomuser.me/api/portraits/men/92.jpg" alt="" srcset="">
+                            </div>
+                            <div class="col-9">
+                                <h6>Adolfo Hess</h6>
+                                <small class="d-block m-0">Uploaded the files "Launchday Logo" and "New Design".</small>
+                                <small class="text-muted">2m ago</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-8">
+                <div class="card">
+                    <div class="card-header">Best Selling Products</div>
+                    <div class="card-body p-0">
+                        <div class="table-responsive">
+                            <table class="table table-hover table-striped mb-0">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">First</th>
+                                        <th scope="col">Last</th>
+                                        <th scope="col">Handle</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Mark</td>
+                                        <td>Otto</td>
+                                        <td>@mdo</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>Jacob</td>
+                                        <td>Thornton</td>
+                                        <td>@fat</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td colspan="2">Larry the Bird</td>
+                                        <td>@twitter</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Mark</td>
+                                        <td>Otto</td>
+                                        <td>@mdo</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>Jacob</td>
+                                        <td>Thornton</td>
+                                        <td>@fat</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td colspan="2">Larry the Bird</td>
+                                        <td>@twitter</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Mark</td>
+                                        <td>Otto</td>
+                                        <td>@mdo</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>Jacob</td>
+                                        <td>Thornton</td>
+                                        <td>@fat</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td colspan="2">Larry the Bird</td>
+                                        <td>@twitter</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-secondary text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    Thank you for creating with Falcon | 2021 © Themewagon
+                </div>
+                <div class="col-sm-6 text-end">
+                    v3.3
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
